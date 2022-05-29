@@ -1,0 +1,17 @@
+A [3][3]
+1 1 1 1 1 1 1 1 1
+B [2][3]
+2 2 2 2 2 2
+C [3][2]
+3 3 3 3 3 3
+MERGE A B COLUMN
+MERGE A B ROW
+MERGE A C COLUMN
+MERGE A C ROW
+A * B
+A * C
+B * A
+C * A
+B * C
+C * B
+A * 67.3

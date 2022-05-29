@@ -1,0 +1,34 @@
+Operations you can do in this application:
+Create a new matrix named A:                A [5][3]
+                                            √ First write number of rows(5), than numebr of columns(3)
+Fill the matrix A by new values:            FILL A
+Sum matrix A and matrix B:                  A + B
+Difference of matrix A and matrix B:        A - B
+Product of matrix A and matrix B:           A * B
+Product of matrix A and number:             A * number
+Copy matrix B to matrix A:                  A = B
+Matrix inversion for square matrix A:       INV A
+Gauss elimination on matrix A:              GEM A
+Rank of a matrix A:                         RANK A
+Determinant of a matrix A:                  DET A
+Merge matrix A and matrix B:                MERGE A B ROW
+                                            √ instead of ROW write COLUMN to marge matrices to column
+Split of matrix A :                         SPLIT Z [1][2] (3, 0)
+                                            √ in square braces are rows(1) and columns(2) of final matrix
+                                            √ in circle braces are coordinates (row(3), column(4)) to
+                                              split matrix from
+Transpose matrix A:                         TRANS A
+Save result of last operation as matrix X:  SAVE X
+Print matrix named A:                       PRINT A
+Show this instruction again:                HELP
+Exit from this program:                     BREAK
+__________________________________________________________________
+    First word of command always should continue with space
+    and than continue with rest of command
+    Command HELP is always single. It shows you this instruction.
+__________________________________________________________________
+    !WARNING!
+Program is case-insensitive, so matrix named 'A' and matrix named 'a' are same.
+Please, don't use keywords
+(MERGE, SPLIT, SAVE, DET, RANK, INV, BREAK, HELP, TRANS, GEM and FILL)
+as names of matrices else program could work incorrectly.
