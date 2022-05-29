@@ -1,0 +1,43 @@
+This program is created for implementation of matrix calculator for course BI-PA2.21 in CTU in Prague.
+
+User can use this program in case if he wants to do some math operations with matrix.
+
+Operations available to user:
+Create matrix with definition of dimension of it
+Fill matrix by new values
+Sum of two matrices
+Subtract one matrix from another
+Multiply two matrices
+Multiply matrix by the number
+Copy one matrix's data to another (operation rewrites one of the matrix)
+Find inverse to matrix
+Make Gauss elimination on a matrix
+Find rank of the matrix
+Find determinant of the matrix
+Merge two matrices (two way - to column or to row)
+Split matrix two the smaller one
+Find transposed matrix to matrix
+Find transposed matrix
+Save the last result of calculations like a new matrix to database
+Print some matrix used by user earlier in this session
+Call instructions to program
+Exit from the application
+
+How to run the program?
+In directory of the project in terminal do:
+make all && make run
+
+How to clean the project of object files, doc directory and executable file?
+make clean
+
+How to open documentation?
+In project folder find folder doc, open it. Then find there file
+named "annotated.html" and use right mouse button and find "Open in" and open
+the file in your browser. Pages are interactive.
+
+All source code is in src folder.
+
+Authored by:    Alina Zarubaeva
+                zarubal1@fit.cvut.cz
+                CTU in Prague, BI-PA2
+                2021/2022 year
